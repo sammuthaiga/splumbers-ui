@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container {
+    max-width: 1200px;
+  }
+  
+  input[type='text'] {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
